@@ -1,0 +1,16 @@
+@import "./styles/mixins";
+
+.home {
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  &-link {
+    width: 100%;
+    display: block;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}

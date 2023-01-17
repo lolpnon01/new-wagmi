@@ -1,0 +1,16 @@
+export const hrefs = {
+  facebook: "",
+  instagram: "",
+  twitter: "https://twitter.com/RiseBUSD",
+  youtube: "",
+  discord: "",
+  scan: "https://bscscan.com/address/0x82b7bd5c490e4b1c4ea1251453c25b5c57a7d733#code",
+  telegram: "https://t.me/Rise_BUSD",
+  linkedIn: "",
+  reddit: "",
+  medium: "",
+  address: "0x82b7bd5c490e4b1c4ea1251453c25b5c57a7d733",
+  docs: "http://docs.risebusd.finance/",
+  audit: "https://www.encryptosecurity.com/AuditRecord?project=111#RiseBUSD",
+  contract: "https://bscscan.com/address/0x82b7bd5c490e4b1c4ea1251453c25b5c57a7d733#code",
+}

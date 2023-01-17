@@ -1,0 +1,68 @@
+@import "src/styles/mixins";
+
+.last-block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 24px;
+  flex-direction: row-reverse;
+
+  @include respond(md) {
+    padding: 24px 16px;
+    flex-direction: column-reverse;
+  }
+
+  &-text {
+    margin-left: 150px;
+
+    @include respond(md) {
+      margin-left: 0;
+    }
+
+    h3 {
+      padding-bottom: 32px;
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: 600;
+      color: rgb(234, 236, 239);
+      margin: 0;
+
+      @include respond(md) {
+        font-size: 16px;
+        font-weight: 700;
+        padding-bottom: 16px;
+        line-height: unset;
+      }
+    }
+
+    &-p {
+      font-size: 16px;
+      font-weight: 400;
+      overflow-wrap: break-word;
+      margin: 0;
+      color: rgb(183, 189, 198);
+      max-width: 733px;
+      white-space: pre-wrap;
+      line-height: 24px;
+
+      @include respond(md) {
+        font-size: 14px;
+        max-width: unset;
+        line-height: unset;
+      }
+    }
+
+    button {
+      margin-top: 67px;
+    }
+  }
+
+  img {
+    width: 281px;
+
+    @include respond(md) {
+      width: 100%;
+    }
+  }
+}
